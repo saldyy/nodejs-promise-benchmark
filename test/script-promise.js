@@ -3,7 +3,7 @@ import { sleep } from 'k6';
 import { generateRandomUsername } from './random.js';
 
 export const options = {
-  vus: 10,
+  vus: 100,
   duration: '10s',
 };
 
